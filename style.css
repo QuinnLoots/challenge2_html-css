@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu {
+    
+    padding: 15px 0;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bootstrap{
+   font-size: 20px;
+    padding: 10px 5px;
+}
+
+.signup{
+    color: #ffffff
+}
+
+.button {
+    background-color: #5995DA; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color:#2c64a5;
+}
+
+.header-container {
+    
+    color: #ffffff;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+    
+
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-aroundn;
+}
