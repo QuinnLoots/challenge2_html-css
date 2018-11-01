@@ -37,6 +37,11 @@
     font-size: 20px;
     padding: 10px 5px;
     border-radius: 4px;
+    margin-left: 20px;
+}
+
+.email{
+    margin-top: 10px;
 }
 
 .button:hover {
@@ -44,20 +49,32 @@
 }
 
 .header-container {
-    
-    color: #ffffff;
-    background-image: url("background.jpg");
-    background-repeat: no-repeat
     display: flex;
     justify-content: center;
-    
+    color: #ffffff;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
 
 .header {
     
-
     width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-aroundn;
+    height: 500px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
 }
+
+.headertext{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+
