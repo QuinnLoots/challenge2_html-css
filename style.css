@@ -124,6 +124,7 @@ i:hover{
   flex: 1;
     display: flex;
     width: 50%;
+    text-align: center;
 }
 
 .right-half {
@@ -133,6 +134,7 @@ i:hover{
   flex: 1;
   display: flex;
   width: 50%;
+  text-align: center;
   
 }
 
