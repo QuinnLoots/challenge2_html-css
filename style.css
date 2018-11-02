@@ -12,6 +12,14 @@ p{
     font-size: 30px;
 }
 
+i{
+    font-size: 60px;
+    color: #0071d8;
+}
+
+i:hover{
+    font-size: 70px;
+}
 .menu-container {
     padding: 15px 0;
     display: flex;
@@ -68,7 +76,7 @@ p{
 
 .header {
     
-    width: 900px;
+    width: 50%;
     height: 500px;
     display: flex;    
     flex-direction: column;
@@ -80,6 +88,30 @@ p{
     margin-bottom: 30px;
     font-size: 50px;
     text-align: center;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+   background-color: #D6E9FE;
+}
+
+.features, .features2 {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  text-align: center;
+ 
+}
+
+.features2{
+    width: 100%;
+    margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
 .photo-container {
