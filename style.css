@@ -85,6 +85,15 @@ i:hover{
     align-items: center;
 }
 
+.header2 {
+    
+    width: 50%;
+    height: 300px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
 .headertext{
     margin-top: 150px;
     margin-bottom: 30px;
@@ -94,7 +103,7 @@ i:hover{
 .features-container {
     display: flex;
     justify-content: center;
-    background-color: #D6E9FE;
+    /*background-color: #D6E9FE;*/
 }
 
 .features, .features2 {
@@ -120,42 +129,38 @@ i:hover{
 }
 
 .left-half {
-  flex-direction: column;
-  justify-content: center;
-  background-color: #ff9e2c;
-  flex: 1;
+    flex-direction: column;
+    justify-content: center;
+   /*  background-color: #ff9e2c; */
+    flex: 1;
     display: flex;
     width: 50%;
     text-align: center;
 }
 
 .right-half {
-  flex-direction: column;
-  justify-content: center;
-  background-color: #b6701e;
-  flex: 1;
-  display: flex;
-  width: 50%;
-  text-align: center;
+    flex-direction: column;
+    justify-content: center;
+   /* background-color: #b6701e;*/
+    flex: 1;
+    display: flex;
+    width: 50%;
+    text-align: center;
   
 }
 
 .test{
-width: 100%;
-height: 450px;
+    width: 100%;
+    height: 450px;
 }
 
 .row {
-    
-  display: flex;
-
+    display: flex;
 }
 
 .item {
-  flex: 1 1 50%;
-  padding-left: 1.5rem;
- 
- 
+    flex: 1 1 50%;
+    padding-left: 1.5rem;
 }
 
 .item-image{
@@ -165,19 +170,18 @@ height: 450px;
 }
 
 .meta{
-margin-top: 150px;
-margin-bottom: 30px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-item {
-  border: 1px solid #fff;
-  background-color: #D6E9FE;
-  height: 200px;
-  flex: 1;
+    margin-top: 50px;
+    height:100px;
+    flex: 1;
 }
